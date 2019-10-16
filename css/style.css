@@ -1292,7 +1292,6 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project {
-    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
@@ -1308,11 +1307,15 @@ body.offcanvas .colorlib-nav-toggle {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: rgba(44, 152, 240, 0.6);
     opacity: 0;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s
+}
+
+.bg-home {
+    background: rgba(229, 233, 236, 0.74);
 }
 
 .project .desc .con {
