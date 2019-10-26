@@ -296,9 +296,9 @@ figure figcaption {
 #colorlib-main {
     width: calc(100% - 300px);
     float: right;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
 }
 
 @media screen and (max-width:768px) {
@@ -1307,7 +1307,6 @@ body.offcanvas .colorlib-nav-toggle {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(44, 152, 240, 0.6);
     opacity: 0;
     -webkit-transition: .2s;
     -o-transition: .2s;
@@ -1358,12 +1357,12 @@ body.offcanvas .colorlib-nav-toggle {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
-    -webkit-transition: -webkit-transform .3s, opacity .3s;
-    -webkit-transition: opacity .3s, -webkit-transform .3s;
-    transition: opacity .3s, -webkit-transform .3s;
-    -o-transition: transform .3s, opacity .3s;
-    transition: transform .3s, opacity .3s;
-    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+    -webkit-transition: -webkit-transform .2s, opacity .2s;
+    -webkit-transition: opacity .2s, -webkit-transform .2s;
+    transition: opacity .2s, -webkit-transform .2s;
+    -o-transition: transform .2s, opacity .2s;
+    transition: transform .2s, opacity .2s;
+    transition: transform .2s, opacity .2s, -webkit-transform .2s;
     -webkit-transform: translate3d(0, -15px, 0);
     transform: translate3d(0, -15px, 0);
     margin-bottom: 15px
@@ -1377,12 +1376,12 @@ body.offcanvas .colorlib-nav-toggle {
     display: block;
     color: rgba(255, 255, 255, .7);
     font-size: 13px;
-    -webkit-transition: -webkit-transform .3s, opacity .3s;
-    -webkit-transition: opacity .3s, -webkit-transform .3s;
-    transition: opacity .3s, -webkit-transform .3s;
-    -o-transition: transform .3s, opacity .3s;
-    transition: transform .3s, opacity .3s;
-    transition: transform .3s, opacity .3s, -webkit-transform .3s;
+    -webkit-transition: -webkit-transform .2s, opacity .2s;
+    -webkit-transition: opacity .2s, -webkit-transform .2s;
+    transition: opacity .2s, -webkit-transform .2s;
+    -o-transition: transform .2s, opacity .2s;
+    transition: transform .2s, opacity .2s;
+    transition: transform .2s, opacity .2s, -webkit-transform .2s;
     -webkit-transform: translate3d(0, 15px, 0);
     transform: translate3d(0, 15px, 0)
 }
@@ -1805,9 +1804,9 @@ body.offcanvas .colorlib-nav-toggle {
     height: 54px;
     font-size: 16px;
     font-weight: 400;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+    -webkit-transition: .1s;
+    -o-transition: .1s;
+    transition: .1s;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
@@ -1862,6 +1861,7 @@ body.offcanvas .colorlib-nav-toggle {
     text-transform: uppercase;
     text-indent: -55px;
     background: #000;
+    -webkit-transition: .1s;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out
